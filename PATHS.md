@@ -12,10 +12,12 @@ There is a finite first block where splits are required. Before then the error i
 
 After the first block with splits, the error at its endpoint is $b(u')+O(e^{-u})$. Subsequent blocks starting that close to the buffer always require some splits, since $b(u)-b(u')=O(u^{-4})$, $r_u=O(e^{-u/2})$ and $d_u\asymp u^{-2}$. Thus the error is $O(u^{-2})$ everywhere on the remaining tail, including the intervening points by the bound on total jumps per block. Its area is $O(1/U)$. This proves the extension estimate.
 
-In particular, begin with all signs inert through some fixed sufficiently large $e^{U_0}$ and $c=1/(2U_0)$. The error is positive on this prefix and the preceding construction gives a positive path of finite area. This proves that $A_*$ is finite with no zero-location assumption. With an explicit rational-prime error bound one can fix the starting threshold and give a computable coarse upper bound for its area.
+In particular, begin with all signs inert through some fixed sufficiently large $e^{U_0}$ and $c=1/(2U_0)$. The error is positive on this prefix and the preceding construction gives a positive path of finite area. This proves that $A_\ast$ is finite with no zero-location assumption. With an explicit rational-prime error bound one can fix the starting threshold and give a computable coarse upper bound for its area.
 
-There is also a rate of convergence to $A_*$. Choose a minimiser for $A_L$ and take $U\in[\tfrac12\log L,\log L]$ where its error is at most $4A_L/\log L$, avoiding jumps. Such a point exists by the area bound. Keep its prefix only through $e^U$ and use the extension above. The adjustment to the prefix costs $O(1/U)$ and the new tail costs $O(Ub_0^2+1/U)$ with $b_0\ll (1+A_L)/U$ for large $L$. The discarded part of the original prefix had nonnegative area. Therefore
+There is also a rate of convergence to $A_\ast$. Choose a minimiser for $A_L$ and take $U\in[\tfrac12\log L,\log L]$ where its error is at most $4A_L/\log L$, avoiding jumps. Such a point exists by the area bound. Keep its prefix only through $e^U$ and use the extension above. The adjustment to the prefix costs $O(1/U)$ and the new tail costs $O(Ub_0^2+1/U)$ with $b_0\ll (1+A_L)/U$ for large $L$. The discarded part of the original prefix had nonnegative area. Therefore
+
 $$
- 0\le A_*-A_L\ll (1+A_*^2)/\log L.
+ 0\le A_\ast-A_L\ll (1+A_\ast^2)/\log L.
 $$
+
 The finite minima and this approximation refer to ideal splitting patterns in the variational problem. They do not assert that a single real quadratic field stays above its main term forever.
