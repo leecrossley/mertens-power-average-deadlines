@@ -1,5 +1,7 @@
 # A sharp deadline for a negative prime-product average
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24412091.svg)](https://doi.org/10.5281/zenodo.24412091)
+
 Across Yokoi's real quadratic fields, suppose the average logarithmic error of the prime-ideal Mertens product is negative when the averaging starts at 2 with weight $2/t$ against $dt/t$. How long can the product stay above its main term? The exact supremum for its first dip is **3.461332112486105…**. Every qualifying field dips earlier, and infinitely many get arbitrarily close to that number.
 
 The family consists of $\mathbb Q(\sqrt d)$ with squarefree $d=m^2+4$ and odd positive $m$. For each fixed start $y\ge 2$ and exponent $s>0$, the proof gives a finite maximisation formula for the sharp family deadline. Each candidate is evaluated from its prime splitting pattern and an absolutely convergent series. For any number field, a negative average with weight $(y/t)^s$ forces a dip before $C y^{1+1/s}/(\log y)^{1/s}$ for all sufficiently large $y$, whenever $C>(2/s)^{1/s}$. [Definitions, proof and sharp value](PROOF.md)
