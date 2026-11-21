@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24412091.svg)](https://doi.org/10.5281/zenodo.24412091)
 
+This result is now maintained in [quadratic-mertens-first-crossings](https://github.com/leecrossley/quadratic-mertens-first-crossings/tree/main/results/mertens-power-average-deadlines). This repository is archived and keeps its releases and DOI.
+
 Across Yokoi's real quadratic fields, suppose the average logarithmic error of the prime-ideal Mertens product is negative when the averaging starts at 2 with weight $2/t$ against $dt/t$. How long can the product stay above its main term? The exact supremum for its first dip is **3.461332112486105…**. Every qualifying field dips earlier, and infinitely many get arbitrarily close to that number. In those extremal fields 3 and all primes up to a large bound are inert, so the product is still 1 on $[2,4)$ and the dip comes before any prime ideal enters.
 
 The family consists of $\mathbb Q(\sqrt d)$ with squarefree $d=m^2+4$ and odd positive $m$. For each fixed start $y\ge 2$ and exponent $s>0$, the proof gives a finite maximisation formula for the sharp family deadline. Each candidate is evaluated from its prime splitting pattern and an absolutely convergent series. For any number field, a negative average with weight $(y/t)^s$ forces a dip before $C y^{1+1/s}/(\log y)^{1/s}$ for all sufficiently large $y$, whenever $C>(2/s)^{1/s}$. [Definitions, proof and sharp value](PROOF.md)
